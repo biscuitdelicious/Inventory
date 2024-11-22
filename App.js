@@ -1,12 +1,12 @@
 import {TouchableOpacity} from 'react-native';
 import {NavigationContainer} from "@react-navigation/native";
-import {HomeScreen} from "./Home";
-import {BikeScreen} from "./Bikes";
+import {HomeScreen} from "./Screens/Home";
+import {BikeScreen} from "./Screens/Bikes";
 import {createDrawerNavigator} from "@react-navigation/drawer";
 import {FontAwesome} from '@expo/vector-icons';
-import {Books} from "./BookScreen";
+import {Books} from "./Screens/BookScreen";
 import {createStackNavigator} from "@react-navigation/stack";
-import {BookPreview} from "./BookPresentation";
+import {BookPreview} from "./components/BookPresentation";
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
